@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0feb04af-d54f-405d-b0e8-e29e74341ed8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../myvue/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../myvue/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvue/vue-demo/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../myvue/vue-demo/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvue/vue-demo/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../myvue/vue-demo/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvue/vue-demo/src/view/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../myvue/vue-demo/src/view/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvue/vue-demo/src/view/Pagination.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../myvue/vue-demo/src/view/Pagination.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvue/vue-demo/src/view/Ws.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../myvue/vue-demo/src/view/Ws.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvue/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../myvue/vue.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Java\apache-maven-3.8.1\repository" />
+        <option name="mavenHome" value="E:/Java/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="E:\Java\apache-maven-3.8.1\conf\settings_yonyou_iuap5.0.1_outside.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1wVz0ooFHyUvKVfNkMiDVTQdHaj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/06-shiro/02-springboot-shiro" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.withered" />
+      <recent name="" />
+      <recent name="com.withered.myspringboot" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\myweb\myspringboot\06-shiro\02-springboot-shiro" />
+      <recent name="D:\workspace\myweb\myspringboot\06-shiro\02-springboot-shiro\src\main\resources\mapper" />
+      <recent name="D:\workspace\myweb\myspringboot\06-shiro" />
+      <recent name="D:\workspace\myweb\myspringboot\06-shiro\01-quickstart\src\main\resources" />
+      <recent name="D:\workspace\myweb\myspringboot\06-shiro\01-quickstart\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.withered.mapper" />
+      <recent name="com.withered.controller" />
+      <recent name="com.withered.pojo" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\myweb\myspringboot" />
+      <recent name="D:\workspace\myweb\myspringboot\shiro\shiro-01-quickstart\src\main\resources" />
+      <recent name="D:\workspace\myweb\myspringboot\shiro" />
+      <recent name="D:\workspace\myweb\myspringboot\druid\src\main\java\com\withered" />
+      <recent name="D:\workspace\myweb\myspringboot\web\src\main\java\com\withered\config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringbootShiroApplication (1)">
+    <configuration name="Quickstart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Quickstart" />
+      <module name="quickstart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyspringbootApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.withered.myspringboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.withered.myspringboot" />
+      <option name="MAIN_CLASS_NAME" value="com.withered.myspringboot.MyspringbootApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootShiroApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02-springboot-shiro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.withered.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.withered" />
+      <option name="MAIN_CLASS_NAME" value="com.withered.SpringbootShiroApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="02-springboot-shiro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.withered.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.withered.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="02-mysql" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.withered.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DruidApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="03-druid" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.withered.DruidApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="04-mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.withered.MybatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyspringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.withered.MyspringbootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShiroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="06-shiro" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.withered.ShiroApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootShiroApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="02-springboot-shiro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.withered.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.withered.SpringbootShiroApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootShiroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="06-shiro" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.withered.SpringbootShiroApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringsecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="05-springsecurity" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.withered.SpringsecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.withered.TestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.withered.WebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringbootShiroApplication (1)" />
+        <item itemvalue="JUnit.SpringbootShiroApplicationTests" />
+        <item itemvalue="Spring Boot.Application (1)" />
+        <item itemvalue="Application.Quickstart" />
+        <item itemvalue="JUnit.MyspringbootApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0feb04af-d54f-405d-b0e8-e29e74341ed8" name="Default Changelist" comment="" />
+      <created>1628558323807</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628558323807</updated>
+      <workItem from="1628558328950" duration="4857000" />
+      <workItem from="1628641833112" duration="3477000" />
+      <workItem from="1628675068332" duration="9000" />
+      <workItem from="1629162850585" duration="99000" />
+      <workItem from="1629204475505" duration="24000" />
+      <workItem from="1629249085888" duration="5292000" />
+      <workItem from="1629289199869" duration="51000" />
+      <workItem from="1629336039756" duration="2771000" />
+      <workItem from="1629339139855" duration="818000" />
+      <workItem from="1629340130432" duration="1631000" />
+      <workItem from="1629373650558" duration="56000" />
+      <workItem from="1629678718977" duration="5883000" />
+      <workItem from="1629699134736" duration="50000" />
+      <workItem from="1631438891125" duration="241000" />
+      <workItem from="1631946899343" duration="10936000" />
+      <workItem from="1631958924279" duration="464000" />
+      <workItem from="1631968810437" duration="225000" />
+      <workItem from="1632235379838" duration="1401000" />
+      <workItem from="1632271093644" duration="1916000" />
+      <workItem from="1632273287043" duration="1639000" />
+      <workItem from="1632274963982" duration="4738000" />
+      <workItem from="1632280177163" duration="7288000" />
+      <workItem from="1632296905939" duration="380000" />
+      <workItem from="1632297305025" duration="7520000" />
+      <workItem from="1632315027997" duration="1419000" />
+      <workItem from="1632316528348" duration="1389000" />
+      <workItem from="1632318482101" duration="2715000" />
+      <workItem from="1632356949583" duration="8921000" />
+      <workItem from="1632367351845" duration="1135000" />
+      <workItem from="1632375679791" duration="2739000" />
+      <workItem from="1632378478116" duration="5445000" />
+      <workItem from="1632399673526" duration="8607000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="0" key="#Project_Structure" timestamp="1632400731769">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="0" y="0" key="#Project_Structure/0.0.1280.720@0.0.1280.720" timestamp="1632400731769" />
+    <state x="281" y="0" width="736" height="720" key="#Quickstart" timestamp="1632298858139">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="281" y="0" width="736" height="720" key="#Quickstart/0.0.1280.720@0.0.1280.720" timestamp="1632298858139" />
+    <state x="0" y="170" key="#SQL_Dialects" timestamp="1629684098791">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="0" y="170" key="#SQL_Dialects/0.0.1280.720@0.0.1280.720" timestamp="1629684098791" />
+    <state x="183" y="13" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629679636124">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="183" y="13" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1629679636124" />
+    <state x="345" y="147" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1632294843470">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="345" y="147" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.720@0.0.1280.720" timestamp="1632294843470" />
+    <state x="528" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1632406806990">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="528" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1632406806990" />
+    <state x="187" y="0" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1632298836711">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="187" y="0" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.720@0.0.1280.720" timestamp="1632298836711" />
+    <state x="244" y="273" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1632274111012">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="244" y="273" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.720@0.0.1280.720" timestamp="1632274111012" />
+    <state x="371" y="204" width="549" height="312" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1632315670654">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="371" y="204" width="549" height="312" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.720@0.0.1280.720" timestamp="1632315670654" />
+    <state x="398" y="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1632274112199">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="398" y="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.720@0.0.1280.720" timestamp="1632274112199" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1632383042339">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.720@0.0.1280.720" timestamp="1632383042339" />
+    <state x="306" y="50" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1632380442241">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="306" y="50" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1632380442241" />
+    <state x="368" y="0" key="FileChooserDialogImpl" timestamp="1632400809040">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="368" y="0" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1632400809040" />
+    <state width="1229" height="266" key="GridCell.Tab.0.bottom" timestamp="1632408369847">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1229" height="266" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1632408369847" />
+    <state width="1229" height="266" key="GridCell.Tab.0.center" timestamp="1632408369847">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1229" height="266" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1632408369847" />
+    <state width="1229" height="266" key="GridCell.Tab.0.left" timestamp="1632408369847">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1229" height="266" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1632408369847" />
+    <state width="1229" height="266" key="GridCell.Tab.0.right" timestamp="1632408369847">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1229" height="266" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1632408369847" />
+    <state width="1229" height="266" key="GridCell.Tab.1.bottom" timestamp="1632408369845">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1229" height="266" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1632408369845" />
+    <state width="1229" height="266" key="GridCell.Tab.1.center" timestamp="1632408369845">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1229" height="266" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1632408369845" />
+    <state width="1229" height="266" key="GridCell.Tab.1.left" timestamp="1632408369845">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1229" height="266" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1632408369845" />
+    <state width="1229" height="266" key="GridCell.Tab.1.right" timestamp="1632408369845">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1229" height="266" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1632408369845" />
+    <state width="1229" height="337" key="GridCell.Tab.2.bottom" timestamp="1632382461979">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1229" height="337" key="GridCell.Tab.2.bottom/0.0.1280.720@0.0.1280.720" timestamp="1632382461979" />
+    <state width="1229" height="337" key="GridCell.Tab.2.center" timestamp="1632382461979">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1229" height="337" key="GridCell.Tab.2.center/0.0.1280.720@0.0.1280.720" timestamp="1632382461979" />
+    <state width="1229" height="337" key="GridCell.Tab.2.left" timestamp="1632382461979">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1229" height="337" key="GridCell.Tab.2.left/0.0.1280.720@0.0.1280.720" timestamp="1632382461979" />
+    <state width="1229" height="337" key="GridCell.Tab.2.right" timestamp="1632382461979">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1229" height="337" key="GridCell.Tab.2.right/0.0.1280.720@0.0.1280.720" timestamp="1632382461979" />
+    <state x="56" y="0" key="Maven.ArtifactSearchDialog" timestamp="1632378806982">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="56" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.720@0.0.1280.720" timestamp="1632378806982" />
+    <state x="237" y="2" key="NewModule_or_Project.wizard" timestamp="1632400810313">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="237" y="2" key="NewModule_or_Project.wizard/0.0.1280.720@0.0.1280.720" timestamp="1632400810313" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1632400813173">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="0" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1632400813173" />
+    <state x="285" y="235" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1632316922059">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="285" y="235" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.720@0.0.1280.720" timestamp="1632316922059" />
+    <state x="396" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1629253232626">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="396" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.720@0.0.1280.720" timestamp="1629253232626" />
+    <state x="0" y="0" key="new project wizard" timestamp="1632400702164">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="0" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1632400702164" />
+    <state x="219" y="0" width="840" height="718" key="search.everywhere.popup" timestamp="1629341048045">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="219" y="0" width="840" height="718" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1629341048045" />
+  </component>
+</project>

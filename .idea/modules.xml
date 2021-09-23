@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/06-shiro/01-quickstart/01-quickstart.iml" filepath="$PROJECT_DIR$/06-shiro/01-quickstart/01-quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-mysql/02-mysql.iml" filepath="$PROJECT_DIR$/02-mysql/02-mysql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-shiro/02-springboot-shiro/02-springboot-shiro.iml" filepath="$PROJECT_DIR$/06-shiro/02-springboot-shiro/02-springboot-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-druid/03-druid.iml" filepath="$PROJECT_DIR$/03-druid/03-druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-mybatis/04-mybatis.iml" filepath="$PROJECT_DIR$/04-mybatis/04-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-springsecurity/05-springsecurity.iml" filepath="$PROJECT_DIR$/05-springsecurity/05-springsecurity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-shiro/06-shiro.iml" filepath="$PROJECT_DIR$/06-shiro/06-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myspringboot.iml" filepath="$PROJECT_DIR$/myspringboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
+    </modules>
+  </component>
+</project>

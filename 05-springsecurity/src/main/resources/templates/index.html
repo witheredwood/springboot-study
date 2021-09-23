@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>springsecurity</title>
+</head>
+<body>
+<h1>这是springsecurity的首页</h1>
+
+<ul>
+    <p>level1</p>
+    <li id="1-1">level1 - 1</li>
+    <li id="1-2">level1 - 2</li>
+    <li id="1-3">level1 - 3</li>
+</ul>
+
+<ul>
+    <p>level2</p>
+    <li id="2-1">level2 - 1</li>
+    <li id="2-2">level2 - 2</li>
+    <li id="2-3">level2 - 3</li>
+</ul>
+
+<ul>
+    <p>level3</p>
+    <li id="3-1">level3 - 1</li>
+    <li id="3-2">level3 - 2</li>
+    <li id="3-3">level3 - 3</li>
+</ul>
+
+<script src="../static/js/jquery-3.6.0.min.js"></script>
+<script>
+    $("ul li").on("click", (event) => {
+        console.log(event.target.getAttribute("id"));
+        let arr = event.target.getAttribute("id").split("-");
+        // 跳转页面
+        window.location.href = "/level" + arr[0] + "/" + arr[1];
+        // $.ajax({
+        //     type: "get",
+        //     url: "/level" + arr[0] + "/" + arr[1],
+        //     success: function (data) {
+        //         console.log(data);
+        //     }
+        // })
+    });
+</script>
+</body>
+</html>
