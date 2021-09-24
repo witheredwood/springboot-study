@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0feb04af-d54f-405d-b0e8-e29e74341ed8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../myvue/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../myvue/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myvue/vue-demo/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../myvue/vue-demo/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myvue/vue-demo/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../myvue/vue-demo/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myvue/vue-demo/src/view/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../myvue/vue-demo/src/view/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myvue/vue-demo/src/view/Pagination.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../myvue/vue-demo/src/view/Pagination.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myvue/vue-demo/src/view/Ws.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../myvue/vue-demo/src/view/Ws.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myvue/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../myvue/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springsecurity/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springsecurity/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springsecurity/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springsecurity/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springsecurity/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +27,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -58,7 +60,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/06-shiro/02-springboot-shiro" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -270,6 +272,8 @@
       <workItem from="1632375679791" duration="2739000" />
       <workItem from="1632378478116" duration="5445000" />
       <workItem from="1632399673526" duration="8607000" />
+      <workItem from="1632408903650" duration="159000" />
+      <workItem from="1632443781703" duration="81000" />
     </task>
     <servers />
   </component>
@@ -321,10 +325,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.720@0.0.1280.720" timestamp="1632383042339" />
-    <state x="306" y="50" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1632380442241">
+    <state x="306" y="50" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1632443829173">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="306" y="50" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1632380442241" />
+    <state x="306" y="50" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1632443829173" />
     <state x="368" y="0" key="FileChooserDialogImpl" timestamp="1632400809040">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
