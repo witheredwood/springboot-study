@@ -2,15 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0feb04af-d54f-405d-b0e8-e29e74341ed8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_12_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_12_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_12_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_12_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_53.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_53.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_53.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-swagger/src/main/java/com/withered/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-swagger/src/main/java/com/withered/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-swagger/src/main/java/com/withered/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-swagger/src/main/resources/application-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-swagger/src/main/resources/application-pro.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-springsecurity/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-springsecurity/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-springsecurity/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-springsecurity/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-springsecurity/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme【Spring boot 学习记录】.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme【Spring boot 学习记录】.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,34 +105,17 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/07-swagger/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.withered" />
-      <recent name="" />
-      <recent name="com.withered.myspringboot" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\myweb\myspringboot\06-shiro\02-springboot-shiro" />
-      <recent name="D:\workspace\myweb\myspringboot\06-shiro\02-springboot-shiro\src\main\resources\mapper" />
-      <recent name="D:\workspace\myweb\myspringboot\06-shiro" />
-      <recent name="D:\workspace\myweb\myspringboot\06-shiro\01-quickstart\src\main\resources" />
-      <recent name="D:\workspace\myweb\myspringboot\06-shiro\01-quickstart\src\main\java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.withered.mapper" />
-      <recent name="com.withered.controller" />
-      <recent name="com.withered.pojo" />
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workspace\myweb\myspringboot" />
       <recent name="D:\workspace\myweb\myspringboot\shiro\shiro-01-quickstart\src\main\resources" />
@@ -92,8 +123,26 @@
       <recent name="D:\workspace\myweb\myspringboot\druid\src\main\java\com\withered" />
       <recent name="D:\workspace\myweb\myspringboot\web\src\main\java\com\withered\config" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.withered" />
+      <recent name="" />
+      <recent name="com.withered.myspringboot" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.withered.mapper" />
+      <recent name="com.withered.controller" />
+      <recent name="com.withered.pojo" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Desktop\springboot-study\07-swagger\src\main\resources" />
+      <recent name="D:\workspace\myweb\myspringboot\06-shiro\02-springboot-shiro" />
+      <recent name="D:\workspace\myweb\myspringboot\06-shiro\02-springboot-shiro\src\main\resources\mapper" />
+      <recent name="D:\workspace\myweb\myspringboot\06-shiro" />
+      <recent name="D:\workspace\myweb\myspringboot\06-shiro\01-quickstart\src\main\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringbootShiroApplication (1)">
+  <component name="RunManager" selected="Spring Boot.SwaggerApplication">
     <configuration name="Quickstart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Quickstart" />
       <module name="quickstart" />
@@ -206,6 +255,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SwaggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="07-swagger" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.withered.SwaggerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="test" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.withered.TestApplication" />
@@ -273,7 +329,8 @@
       <workItem from="1632378478116" duration="5445000" />
       <workItem from="1632399673526" duration="8607000" />
       <workItem from="1632408903650" duration="159000" />
-      <workItem from="1632443781703" duration="81000" />
+      <workItem from="1632443781703" duration="4272000" />
+      <workItem from="1632451253761" duration="5432000" />
     </task>
     <servers />
   </component>
@@ -301,10 +358,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="345" y="147" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.720@0.0.1280.720" timestamp="1632294843470" />
-    <state x="528" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1632406806990">
+    <state x="528" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1632463770640">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="528" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1632406806990" />
+    <state x="528" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1632463770640" />
     <state x="187" y="0" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1632298836711">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -325,46 +382,46 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.720@0.0.1280.720" timestamp="1632383042339" />
-    <state x="306" y="50" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1632443829173">
+    <state x="306" y="50" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1632447912820">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="306" y="50" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1632443829173" />
+    <state x="306" y="50" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1632447912820" />
     <state x="368" y="0" key="FileChooserDialogImpl" timestamp="1632400809040">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="368" y="0" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1632400809040" />
-    <state width="1229" height="266" key="GridCell.Tab.0.bottom" timestamp="1632408369847">
+    <state width="1229" height="266" key="GridCell.Tab.0.bottom" timestamp="1632463834733">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1229" height="266" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1632408369847" />
-    <state width="1229" height="266" key="GridCell.Tab.0.center" timestamp="1632408369847">
+    <state width="1229" height="266" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1632463834733" />
+    <state width="1229" height="266" key="GridCell.Tab.0.center" timestamp="1632463834733">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1229" height="266" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1632408369847" />
-    <state width="1229" height="266" key="GridCell.Tab.0.left" timestamp="1632408369847">
+    <state width="1229" height="266" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1632463834733" />
+    <state width="1229" height="266" key="GridCell.Tab.0.left" timestamp="1632463834733">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1229" height="266" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1632408369847" />
-    <state width="1229" height="266" key="GridCell.Tab.0.right" timestamp="1632408369847">
+    <state width="1229" height="266" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1632463834733" />
+    <state width="1229" height="266" key="GridCell.Tab.0.right" timestamp="1632463834733">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1229" height="266" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1632408369847" />
-    <state width="1229" height="266" key="GridCell.Tab.1.bottom" timestamp="1632408369845">
+    <state width="1229" height="266" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1632463834733" />
+    <state width="1229" height="266" key="GridCell.Tab.1.bottom" timestamp="1632463834733">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1229" height="266" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1632408369845" />
-    <state width="1229" height="266" key="GridCell.Tab.1.center" timestamp="1632408369845">
+    <state width="1229" height="266" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1632463834733" />
+    <state width="1229" height="266" key="GridCell.Tab.1.center" timestamp="1632463834733">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1229" height="266" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1632408369845" />
-    <state width="1229" height="266" key="GridCell.Tab.1.left" timestamp="1632408369845">
+    <state width="1229" height="266" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1632463834733" />
+    <state width="1229" height="266" key="GridCell.Tab.1.left" timestamp="1632463834733">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1229" height="266" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1632408369845" />
-    <state width="1229" height="266" key="GridCell.Tab.1.right" timestamp="1632408369845">
+    <state width="1229" height="266" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1632463834733" />
+    <state width="1229" height="266" key="GridCell.Tab.1.right" timestamp="1632463834733">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1229" height="266" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1632408369845" />
+    <state width="1229" height="266" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1632463834733" />
     <state width="1229" height="337" key="GridCell.Tab.2.bottom" timestamp="1632382461979">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -401,10 +458,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="396" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.720@0.0.1280.720" timestamp="1629253232626" />
-    <state x="0" y="0" key="new project wizard" timestamp="1632400702164">
+    <state x="0" y="0" key="new project wizard" timestamp="1632447902854">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="0" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1632400702164" />
+    <state x="0" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1632447902854" />
     <state x="219" y="0" width="840" height="718" key="search.everywhere.popup" timestamp="1629341048045">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

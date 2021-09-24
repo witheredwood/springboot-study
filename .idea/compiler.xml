@@ -12,10 +12,11 @@
         <module name="04-mybatis" />
         <module name="02-mysql" />
         <module name="01-quickstart" />
-        <module name="05-springsecurity" />
-        <module name="myshiro" />
-        <module name="02-springboot-shiro" />
         <module name="quickstart" />
+        <module name="05-springsecurity" />
+        <module name="07-swagger" />
+        <module name="02-springboot-shiro" />
+        <module name="myshiro" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,6 +28,7 @@
       <module name="04-mybatis" target="1.8" />
       <module name="05-springsecurity" target="1.8" />
       <module name="06-shiro" target="1.8" />
+      <module name="07-swagger" target="1.8" />
       <module name="myshiro" target="1.8" />
       <module name="quickstart" target="1.8" />
       <module name="shiro-01-quickstart" target="1.8" />
@@ -47,6 +49,7 @@
       <module name="04-mybatis" options="-parameters" />
       <module name="05-springsecurity" options="-parameters" />
       <module name="06-shiro" options="-parameters" />
+      <module name="07-swagger" options="-parameters" />
       <module name="myshiro" options="-parameters" />
       <module name="quickstart" options="-parameters" />
       <module name="shiro-01-quickstart" options="-parameters" />

@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/04-mybatis/04-mybatis.iml" filepath="$PROJECT_DIR$/04-mybatis/04-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/05-springsecurity/05-springsecurity.iml" filepath="$PROJECT_DIR$/05-springsecurity/05-springsecurity.iml" />
       <module fileurl="file://$PROJECT_DIR$/06-shiro/06-shiro.iml" filepath="$PROJECT_DIR$/06-shiro/06-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-swagger/07-swagger.iml" filepath="$PROJECT_DIR$/07-swagger/07-swagger.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-study.iml" filepath="$PROJECT_DIR$/springboot-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
     </modules>

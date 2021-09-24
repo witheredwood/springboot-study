@@ -1679,3 +1679,272 @@ protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) 
 ```
 
 ## Swagger
+
+前后端分离：
+
+- 前端测试后端接口
+- 后端提供接口，需要实时更新最新的消息和改动
+
+所以，swagger应运而生。
+
+- 号称世界上最流行的Api框架;
+- RestFul Api文档在线自动生成工具=>Api文档与API定义同步更新
+- 直接运行，可以在线测试API接口;
+- 支持多种语言（Java，Php....)
+
+[官网](https://swagger.io/)
+
+在项目中使用swagger需要springbox：
+
+- swagger2
+- UI
+
+### Springboot集成swagger
+
+hello工程测试
+
+ 创建一个springboot空项目，新建一个controller层的文件 `HelloController` ，内容如下：
+
+```java
+@RestController
+public class HelloController {
+
+    @RequestMapping("/hello")
+    public String hello() {
+        return "hello";
+    }
+}
+```
+
+**Step1 导入依赖**
+
+```xml
+<!-- swagger -->
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger2</artifactId>
+    <version>2.7.0</version>
+</dependency>
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger-ui</artifactId>
+    <version>2.7.0</version>
+</dependency>
+```
+
+**Step2 配置swagger**
+
+在 `config` 包下创建一个配置文件 `SwaggerConfig` ，内容如下：
+
+```java
+@Configuration
+@EnableSwagger2  // 开启swagger2
+public class SwaggerConfig {
+}
+```
+
+swagger有默认配置，使用默认配置进行测试。
+
+**Step3 测试运行**
+
+启动服务器后，在浏览器地址栏输入 `http://localhost:8080/swagger-ui.html`
+
+![image-20210924102705965](https://gitee.com/withered-wood/picture/raw/master/20210924135154.png)
+
+### 配置Swagger
+
+swagger的bean实例是 Docket。
+
+```java
+@Configuration
+@EnableSwagger2  // 开启swagger2
+public class SwaggerConfig {
+
+    // 配置了swagger的docket的bean实例
+    @Bean
+    public Docket docket() {
+        return new Docket(DocumentationType.SWAGGER_2)
+                .apiInfo(apiInfo());
+    }
+
+    // 配置swagger基本信息，也就是配置apiInfo
+    private ApiInfo apiInfo() {
+        // 作者信息
+        Contact contact = new Contact("withered", "", "");
+        return new ApiInfo(
+               "withered的Api文档",
+               "即使再小的帆也能远航",
+               "v1.0",
+               "urn:tos这是什么",
+                contact,
+               "Apache 2.0",
+               "http://www.apache.org/licenses/LICENSE-2.0",
+               new ArrayList()
+       );
+
+    }
+}
+```
+
+启动服务器，查看效果
+
+<img src="https://gitee.com/withered-wood/picture/raw/master/20210924135102.png" alt="image-20210924102412399" style="zoom:50%;" />
+
+### 配置扫描接口和开关
+
+在 Docket 实例中配置要扫描的接口。
+
+**`RequestHandlerSelectors` ：配置要扫描的接口的方式。**
+
+- `basePackage` ：指定只扫描哪个包下面的接口。一般用这种方式。
+- `any()` ：扫描所有的接口
+- `none()` ：不扫描所有的接口
+- `withClassAnnotation(RestController.class)` ：扫描类上的注解，参数是一个注解的反射对象。
+- `withMethodAnnotation(GetMapping.class)` ：扫描方法上的注解，参数是一个注解的反射对象。
+
+**`.paths()` ：指定过滤什么路径。**
+
+- `.ant()` ：只扫描带有什么路径的接口。例如 `/withered/**` ：只扫描路径中带有 `/withered` 的接口
+
+```java
+public Docket docket() {
+    return new Docket(DocumentationType.SWAGGER_2)
+        .select()
+        // RequestHandlerSelectors：配置要扫描的接口的方式
+        .apis(RequestHandlerSelectors.basePackage("com.withered.controller"))
+        .paths(PathSelectors.ant("/withered/**"))  // 过滤什么路径
+        .build();
+}
+```
+
+**配置是否启动swagger**
+
+通过设置 `.enable(true) `，来设置是否启动swagger。如果该值为 `false` ，则在浏览器中不能访问swagger。
+
+```java
+@Bean
+public Docket docket() {
+    return new Docket(DocumentationType.SWAGGER_2)
+        .enable(true)  // 是否启用swagger
+}
+```
+
+**思考**：swagger 在开发环境是启用，在发布时不启用
+
+思路一：
+
+判断当前运行环境是不是生产环境  `flag = false` ， 注入 `enable (flag)`
+
+在 `SwaggerConfig` 中修改以下内容：
+
+```java
+import org.springframework.core.env.Environment;
+import org.springframework.core.env.Profiles;
+
+@Bean
+public Docket docket(Environment environment) {
+    // 设置要显示的Swagger环境
+    Profiles profiles = Profiles.of ("dev", "test");
+    // 获取项目当前环境
+    boolean flag = environment.acceptsProfiles(profiles);  // 通过 acceptsProfiles 判断是否处在自己设定的环境当中
+    System.out.println(flag);
+
+    return new Docket(DocumentationType.SWAGGER_2)
+        .enable(flag)  // 是否启用swagger
+}
+```
+
+**配置不同的环境**
+
+开发环境设置 `application-dev.yaml`
+
+```yaml
+server:
+  port: 8081
+```
+
+生产环境设置 `application-pro.yaml`
+
+```yaml
+server:
+  port: 8082
+```
+
+在 `application.yaml` 中设置启动哪个环境
+
+```yaml
+spring:
+  profiles:
+    active: dev
+```
+
+### 配置api文档分组
+
+```java
+@Bean
+public Docket docket(Environment environment) {
+    return new Docket(DocumentationType.SWAGGER_2)
+        .groupName("withered")
+}
+```
+
+配置多个分组：编写多个Docket实例
+
+```java
+@Bean
+public Docket docket1(Environment environment) {
+    return new Docket(DocumentationType.SWAGGER_2)
+        .groupName("group 1");
+}
+@Bean
+public Docket docket2(Environment environment) {
+    return new Docket(DocumentationType.SWAGGER_2)
+        .groupName("group 2");
+}
+@Bean
+public Docket docket3(Environment environment) {
+    return new Docket(DocumentationType.SWAGGER_2)
+        .groupName("group 3");
+}
+```
+
+### 配置实体类
+
+如果在请求中使用了实体类，会在该请求中显示实体类Model。
+
+增加一个请求 `/user` ，使用到了实体类 `User`（已创建）
+
+```java
+@PostMapping("/user")
+public User user() {
+    return new User();
+}
+```
+
+在实体类 `User` 中配置以下的中文说明
+
+```java
+@ApiModel("用户实体类")
+public class User {
+    @ApiModelProperty("用户名")
+    private String username;
+    @ApiModelProperty("密码")
+    private String password;
+}
+```
+
+启动服务器后，会在api文档中出现以下信息：
+
+<img src="https://gitee.com/withered-wood/picture/raw/master/20210924141805.png" alt="image-20210924141804000" style="zoom:50%;" />
+
+总结：
+
+- 我们可以通过Swagger给一些比较难理解的属性或者接口，增加注释信息
+- 接口文档实时更新
+- 在线测试
+
+注意：在正式发布时关闭swagger，也可以节省内存。
+
+
+
+## END
