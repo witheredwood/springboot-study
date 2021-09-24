@@ -1945,6 +1945,137 @@ public class User {
 
 注意：在正式发布时关闭swagger，也可以节省内存。
 
+## 任务
+
+异步任务、定时任务、邮件发送
+
+### 异步任务
+
+**Step1  编写service层**
+
+service层文件 `AsyncService` 。通过在方法上添加 `@Async` 注解，告诉spring这个方法是一个异步的方法。
+
+```java
+@Service
+public class AsyncService {
+    @Async  // 告诉spring这是一个异步方法
+    public void hello() {
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("数据正在处理。。。。。。。。");
+    }
+}
+```
+
+**Step2 开启异步注解**
+
+在启动类 `TasksApplication` 中开启异步注解功能。
+
+```java
+@EnableAsync  // 开启异步注解功能
+@SpringBootApplication
+public class TasksApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(TasksApplication.class, args);
+    }
+}
+```
+
+**Step3 编写controller层**
+
+controller层文件 `AsyncController` 。由于 `asyncService.hello()` 是一个异步方法，所以会先给前端返回 `ok` ，等 ``asyncService.hello()`  方法执行完之后，会在后台输出这个函数的输出语句  `数据正在处理。。。。。。。。`
+
+```java
+@RestController
+public class AsyncController {
+    @Autowired
+    AsyncService asyncService;
+
+    @GetMapping("/hello")
+    public String hello() {
+        asyncService.hello();  // 停止3秒
+        return "ok";
+    }
+}
+```
+
+### 邮件任务
+
+**Step1 导入依赖**
+
+```xml
+<!-- 邮件 -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-mail</artifactId>
+</dependency>
+```
+
+**Step2 邮箱设置**
+
+使用qq邮箱发送邮件，需要先在qq邮箱中开启 `pop3/smtp` 
+
+<img src="https://gitee.com/withered-wood/picture/raw/master/20210924154352.png" alt="image-20210924154345683" style="zoom:50%;" />
+
+开启之后会有个授权码，程序中使用授权码作为密码登录。
+
+在 `application.properties` 中添加以下设置：
+
+```properties
+spring.mail.username=123456789@qq.com
+spring.mail.password=bxzdwahekxyybdbf
+spring.mail.host=smtp.qq.com
+#开启加密验证
+spring.mail.properties.mail.smtp.ssl.enable=true
+```
+
+**Step3 测试**
+
+在 `TasksApplicationTests` 中测试简单邮件发送和复杂邮件发送。
+
+```java
+@SpringBootTest
+class TasksApplicationTests {
+    @Autowired
+    JavaMailSenderImpl mailSender;
+
+    // 简单邮件测试
+    @Test
+    void simpleMail() {
+        SimpleMailMessage message = new SimpleMailMessage();
+        message.setSubject("这是一封简单邮件的主题");  // 主题
+        message.setText("这是测试简单邮件发送的正文内容哦~~~");  // 正文
+        message.setFrom("123456789@qq.com");  // 发件人
+        message.setTo("123456789@qq.com");  // 收件人
+        mailSender.send(message);
+    }
+    // 复杂邮件测试
+    @Test
+    void complexMail() throws MessagingException {
+        MimeMessage mimeMessage =  mailSender.createMimeMessage();
+        MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, true);
+        helper.setSubject("这是一封复杂邮件的主题");  // 主题
+        helper.setText("<p style='color:red'>这是测试复杂邮件发送的正文内容哦~~~</p>", true);  // 正文
+        // 附件
+        helper.addAttachment("1.jpg", new File("D:\\Desktop\\图片\\头像1.jpg"));
+        helper.addAttachment("2.jpg", new File("D:\\Desktop\\图片\\头像2.jpg"));
+        helper.setFrom("123456789@qq.com");  // 发件人
+        helper.setTo("123456789@qq.com");  // 收件人
+        mailSender.send(mimeMessage);
+    }
+}
+```
+
+**封装为工具类**
+
+```java
+```
+
+### 定时任务
+
 
 
 ## END
