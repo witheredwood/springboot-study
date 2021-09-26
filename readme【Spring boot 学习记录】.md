@@ -2110,6 +2110,54 @@ public class ScheduledService {
 }
 ```
 
+## 集成Redis
+
+**导入依赖**
+
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-data-redis</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.springframework.data</groupId>
+    <artifactId>spring-data-redis</artifactId>
+    <version>2.5.5</version>
+</dependency>
+```
+
+**配置连接**
+
+```yaml
+# 配置Redis
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+```
+
+**测试**
+
+`redisTemplate.opsForxxx()` ：操作不同的类型。xxx，可取 Value, List, Set 等
+
+```java
+@SpringBootTest
+class RedisApplicationTests {
+
+    @Autowired
+    private RedisTemplate redisTemplate;
+
+    @Test
+    void contextLoads() {
+        redisTemplate.opsForValue().set("mykey", "withered");
+        System.out.println(redisTemplate.opsForValue().get("mykey"));
+    }
+
+}
+```
+
+
+
 
 
 ## END

@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/06-shiro/06-shiro.iml" filepath="$PROJECT_DIR$/06-shiro/06-shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/07-swagger/07-swagger.iml" filepath="$PROJECT_DIR$/07-swagger/07-swagger.iml" />
       <module fileurl="file://$PROJECT_DIR$/08-tasks/08-tasks.iml" filepath="$PROJECT_DIR$/08-tasks/08-tasks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-redis/09-redis.iml" filepath="$PROJECT_DIR$/09-redis/09-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-study.iml" filepath="$PROJECT_DIR$/springboot-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
     </modules>
