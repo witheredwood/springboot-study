@@ -2071,11 +2071,46 @@ class TasksApplicationTests {
 
 **封装为工具类**
 
-```java
-```
+
 
 ### 定时任务
+
+- `Taskscheduler` 任务调度程序
+
+- `TaskExecutor` 任务执行者
+- `@EnableScheduling` ：开启定时功能
+- `@Scheduled` ：什么时候执行
+
+**Step1 启动类上添加注解**
+
+```java
+@EnableScheduling  // 开启定时功能的注解
+@SpringBootApplication
+public class TasksApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(TasksApplication.class, args);
+    }
+
+}
+```
+
+**Step2 测试定时任务**
+
+在 service  层创建一个类 `ScheduledService` ，实现每隔5秒执行一次方法，内容如下：
+
+```java
+@Service
+public class ScheduledService {
+    // 在一个特定的时间执行。每隔5秒执行一次
+    @Scheduled(cron = "0/5 * * * * ?")  // 秒 分 时 日 月 周几
+    public void hello() {
+        System.out.println("这个hello service 方法被执行了");
+    }
+}
+```
 
 
 
 ## END
+
