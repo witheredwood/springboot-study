@@ -11,12 +11,9 @@ import java.sql.SQLException;
 
 @SpringBootTest
 class WebApplicationTests {
-    @Autowired
-    private Person person;
 
     @Test
-    public void testPerson() {
-        System.out.println(person);
+    void contextLoads() {
     }
 
 }

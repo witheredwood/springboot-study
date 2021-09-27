@@ -1,1 +1,17 @@
+# 普通的key-value
+name: zs
 
+# 对象
+student:
+  name: zs
+  age: 3
+
+person: {name: zs,age: 3}
+
+# 数组
+pets:
+  - dog
+  - cat
+  - pig
+
+pet: [dog,cat,pig]

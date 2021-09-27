@@ -17,6 +17,8 @@
         <option value="$PROJECT_DIR$/07-swagger/pom.xml" />
         <option value="$PROJECT_DIR$/08-tasks/pom.xml" />
         <option value="$PROJECT_DIR$/09-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/0-yaml/pom.xml" />
+        <option value="$PROJECT_DIR$/01-web/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

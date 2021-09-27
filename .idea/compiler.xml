@@ -7,21 +7,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="06-shiro" />
+        <module name="01-web" />
+        <module name="myshiro" />
         <module name="09-redis" />
-        <module name="08-tasks" />
+        <module name="01-quickstart" />
+        <module name="07-swagger" />
+        <module name="quickstart" />
+        <module name="0-yaml" />
         <module name="03-druid" />
+        <module name="02-springboot-shiro" />
+        <module name="08-tasks" />
         <module name="04-mybatis" />
         <module name="02-mysql" />
-        <module name="01-quickstart" />
-        <module name="quickstart" />
         <module name="05-springsecurity" />
-        <module name="07-swagger" />
-        <module name="01-web" />
-        <module name="02-springboot-shiro" />
-        <module name="myshiro" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="0-yaml" target="1.8" />
       <module name="01-quickstart" target="1.8" />
       <module name="01-quickstart (1)" target="1.8" />
       <module name="01-web" target="1.8" />
@@ -45,6 +47,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="0-yaml" options="-parameters" />
       <module name="01-quickstart" options="-parameters" />
       <module name="01-quickstart (1)" options="-parameters" />
       <module name="01-web" options="-parameters" />

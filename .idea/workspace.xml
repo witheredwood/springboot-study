@@ -2,39 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0feb04af-d54f-405d-b0e8-e29e74341ed8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01-web/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-web/src/main/java/com/withered/WebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-web/src/main/java/com/withered/config/MymvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-web/src/main/java/com/withered/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-web/src/main/java/com/withered/controller/RouterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-web/src/main/java/com/withered/pojo/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-web/src/main/java/com/withered/pojo/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-web/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-web/src/main/resources/public/fa.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-web/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-web/src/main/resources/templates/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-web/src/test/java/com/withered/WebApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/myspringboot_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/myspringboot_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-yaml/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme【Spring boot 学习记录】.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme【Spring boot 学习记录】.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/withered/WebApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/withered/config/MymvcConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/withered/controller/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/withered/controller/IndexController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/withered/controller/RouterController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/withered/pojo/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/withered/pojo/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/application.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/public/fa.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/test/java/com/withered/WebApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-web/src/main/java/com/withered/pojo/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-yaml/src/main/java/com/withered/pojo/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-web/src/main/java/com/withered/pojo/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-yaml/src/main/java/com/withered/pojo/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-web/src/test/java/com/withered/WebApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/01-web/src/test/java/com/withered/WebApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-tasks/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/08-tasks/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,31 +62,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/01-web" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.withered" />
-      <recent name="" />
-      <recent name="com.withered.myspringboot" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Desktop\springboot-study\08-tasks\src\main\resources" />
-      <recent name="D:\Desktop\springboot-study\07-swagger\src\main\resources" />
-      <recent name="D:\workspace\myweb\myspringboot\06-shiro\02-springboot-shiro" />
-      <recent name="D:\workspace\myweb\myspringboot\06-shiro\02-springboot-shiro\src\main\resources\mapper" />
-      <recent name="D:\workspace\myweb\myspringboot\06-shiro" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.withered.controller" />
-      <recent name="com.withered.mapper" />
-      <recent name="com.withered.pojo" />
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workspace\myweb\myspringboot" />
       <recent name="D:\workspace\myweb\myspringboot\shiro\shiro-01-quickstart\src\main\resources" />
@@ -117,8 +76,26 @@
       <recent name="D:\workspace\myweb\myspringboot\druid\src\main\java\com\withered" />
       <recent name="D:\workspace\myweb\myspringboot\web\src\main\java\com\withered\config" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.withered" />
+      <recent name="" />
+      <recent name="com.withered.myspringboot" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.withered.controller" />
+      <recent name="com.withered.mapper" />
+      <recent name="com.withered.pojo" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Desktop\springboot-study\0-yaml\src\main\resources" />
+      <recent name="D:\Desktop\springboot-study\08-tasks\src\main\resources" />
+      <recent name="D:\Desktop\springboot-study\07-swagger\src\main\resources" />
+      <recent name="D:\workspace\myweb\myspringboot\06-shiro\02-springboot-shiro" />
+      <recent name="D:\workspace\myweb\myspringboot\06-shiro\02-springboot-shiro\src\main\resources\mapper" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.RedisApplicationTests">
+  <component name="RunManager" selected="JUnit.YamlApplicationTests">
     <configuration name="RedisApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="09-redis" />
       <extension name="coverage">
@@ -166,6 +143,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="YamlApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="0-yaml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.withered.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.withered" />
+      <option name="MAIN_CLASS_NAME" value="com.withered.YamlApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="02-mysql" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.withered.Application" />
@@ -204,19 +196,6 @@
     <configuration name="ShiroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="06-shiro" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.withered.ShiroApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringbootShiroApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="02-springboot-shiro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.withered.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.withered.SpringbootShiroApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -271,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.YamlApplicationTests" />
         <item itemvalue="JUnit.RedisApplicationTests" />
         <item itemvalue="Spring Boot.TasksApplication" />
         <item itemvalue="JUnit.TasksApplicationTests.complexMail" />
         <item itemvalue="JUnit.TasksApplicationTests.simpleMail" />
-        <item itemvalue="Spring Boot.SpringbootShiroApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +308,8 @@
       <workItem from="1632616195031" duration="11000" />
       <workItem from="1632634532685" duration="10774000" />
       <workItem from="1632647501961" duration="16000" />
-      <workItem from="1632703279707" duration="2542000" />
+      <workItem from="1632703279707" duration="4587000" />
+      <workItem from="1632712984892" duration="105000" />
     </task>
     <servers />
   </component>
@@ -377,34 +357,34 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="398" y="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.720@0.0.1280.720" timestamp="1632274112199" />
-    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1632637067767">
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1632709623218">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.720@0.0.1280.720" timestamp="1632637067767" />
-    <state x="306" y="50" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1632637053533">
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.720@0.0.1280.720" timestamp="1632709623218" />
+    <state x="306" y="50" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1632709608817">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="306" y="50" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1632637053533" />
-    <state x="368" y="0" key="FileChooserDialogImpl" timestamp="1632647515924">
+    <state x="306" y="50" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1632709608817" />
+    <state x="368" y="0" key="FileChooserDialogImpl" timestamp="1632709694623">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="368" y="0" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1632647515924" />
-    <state width="1229" height="266" key="GridCell.Tab.0.bottom" timestamp="1632645427614">
+    <state x="368" y="0" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1632709694623" />
+    <state width="1229" height="266" key="GridCell.Tab.0.bottom" timestamp="1632713033861">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1229" height="266" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1632645427614" />
-    <state width="1229" height="266" key="GridCell.Tab.0.center" timestamp="1632645427613">
+    <state width="1229" height="266" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1632713033861" />
+    <state width="1229" height="266" key="GridCell.Tab.0.center" timestamp="1632713033861">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1229" height="266" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1632645427613" />
-    <state width="1229" height="266" key="GridCell.Tab.0.left" timestamp="1632645427613">
+    <state width="1229" height="266" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1632713033861" />
+    <state width="1229" height="266" key="GridCell.Tab.0.left" timestamp="1632713033860">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1229" height="266" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1632645427613" />
-    <state width="1229" height="266" key="GridCell.Tab.0.right" timestamp="1632645427613">
+    <state width="1229" height="266" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1632713033860" />
+    <state width="1229" height="266" key="GridCell.Tab.0.right" timestamp="1632713033861">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1229" height="266" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1632645427613" />
+    <state width="1229" height="266" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1632713033861" />
     <state width="1229" height="266" key="GridCell.Tab.1.bottom" timestamp="1632638419495">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -441,14 +421,14 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="56" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.720@0.0.1280.720" timestamp="1632641110953" />
-    <state x="237" y="2" key="NewModule_or_Project.wizard" timestamp="1632400810313">
+    <state x="237" y="2" key="NewModule_or_Project.wizard" timestamp="1632709696186">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="237" y="2" key="NewModule_or_Project.wizard/0.0.1280.720@0.0.1280.720" timestamp="1632400810313" />
-    <state x="0" y="0" key="SettingsEditor" timestamp="1632636040010">
+    <state x="237" y="2" key="NewModule_or_Project.wizard/0.0.1280.720@0.0.1280.720" timestamp="1632709696186" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1632712964360">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="0" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1632636040010" />
+    <state x="0" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1632712964360" />
     <state x="285" y="235" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1632316922059">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -461,10 +441,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="93" y="93" width="1095" height="535" key="dock-window-1/0.0.1280.720@0.0.1280.720" timestamp="1632637872069" />
-    <state x="0" y="0" key="new project wizard" timestamp="1632637041514">
+    <state x="0" y="0" key="new project wizard" timestamp="1632709594855">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="0" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1632637041514" />
+    <state x="0" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1632709594855" />
     <state x="219" y="0" width="840" height="718" key="search.everywhere.popup" timestamp="1629341048045">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
