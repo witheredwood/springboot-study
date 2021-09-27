@@ -4,11 +4,16 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
+        <module>0-yaml</module>
+        <module>01-web</module>
         <module>02-mysql</module>
         <module>03-druid</module>
         <module>04-mybatis</module>
         <module>05-springsecurity</module>
         <module>06-shiro</module>
+        <module>07-swagger</module>
+        <module>08-tasks</module>
+        <module>09-redis</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

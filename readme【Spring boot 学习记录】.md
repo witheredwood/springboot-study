@@ -1,5 +1,25 @@
 # Spring boot 学习记录
 
+## 介绍
+
+本项目是学习狂神的springboot课程时的笔记，本次笔记是在一个项目中加入多个模块，所以，下载项目后，需要把每个模块（例如 `0-yaml` ）先导入，才能正常运行每个模块（每个模块单独运行）。本项目共10个模块，除 `06-shiro` 模块中的 `01-quickstart` 模块是maven项目外，其余的均为springboot项目。 
+
+### 导入模块方法
+
+**Step1 点击项目名称**（`springboot-study` ）
+
+**Step2** 依次打开：file -> Project Structure -> Modules
+
+<img src="C:/Users/90618/AppData/Roaming/Typora/typora-user-images/image-20210927142746311.png" alt="image-20210927142746311" style="zoom: 67%;" />
+
+**Step3 选择模块**
+
+ <img src="C:/Users/90618/AppData/Roaming/Typora/typora-user-images/image-20210927142925515.png" alt="image-20210927142925515" style="zoom: 50%;" />
+
+**Step4 导入为maven**
+
+<img src="C:/Users/90618/AppData/Roaming/Typora/typora-user-images/image-20210927143022858.png" alt="image-20210927143022858" style="zoom: 67%;" />
+
 javaweb：独立开发MVC网站
 
 ssm：框架
