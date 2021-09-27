@@ -6,7 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="web" />
         <module name="06-shiro" />
         <module name="09-redis" />
         <module name="08-tasks" />
@@ -14,16 +13,18 @@
         <module name="04-mybatis" />
         <module name="02-mysql" />
         <module name="01-quickstart" />
+        <module name="quickstart" />
         <module name="05-springsecurity" />
         <module name="07-swagger" />
-        <module name="myshiro" />
+        <module name="01-web" />
         <module name="02-springboot-shiro" />
-        <module name="quickstart" />
+        <module name="myshiro" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="01-quickstart" target="1.8" />
       <module name="01-quickstart (1)" target="1.8" />
+      <module name="01-web" target="1.8" />
       <module name="02-mysql" target="1.8" />
       <module name="02-springboot-shiro" target="1.8" />
       <module name="03-druid" target="1.8" />
@@ -40,13 +41,13 @@
       <module name="springboot-shiro (1)" target="1.8" />
       <module name="springboot-study" target="1.8" />
       <module name="test" target="1.8" />
-      <module name="web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="01-quickstart" options="-parameters" />
       <module name="01-quickstart (1)" options="-parameters" />
+      <module name="01-web" options="-parameters" />
       <module name="02-mysql" options="-parameters" />
       <module name="02-springboot-shiro" options="-parameters" />
       <module name="03-druid" options="-parameters" />
@@ -63,7 +64,6 @@
       <module name="springboot-shiro (1)" options="-parameters" />
       <module name="springboot-study" options="-parameters" />
       <module name="test" options="-parameters" />
-      <module name="web" options="-parameters" />
     </option>
   </component>
 </project>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/01-web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/02-mysql/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/03-druid/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/04-mybatis/src/main/java" charset="UTF-8" />
@@ -11,6 +12,5 @@
     <file url="file://$PROJECT_DIR$/07-swagger/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/08-tasks/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/09-redis/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/web/src/main/java" charset="UTF-8" />
   </component>
 </project>

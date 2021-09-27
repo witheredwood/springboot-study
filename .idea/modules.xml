@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/06-shiro/01-quickstart/01-quickstart.iml" filepath="$PROJECT_DIR$/06-shiro/01-quickstart/01-quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-web/01-web.iml" filepath="$PROJECT_DIR$/01-web/01-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-mysql/02-mysql.iml" filepath="$PROJECT_DIR$/02-mysql/02-mysql.iml" />
       <module fileurl="file://$PROJECT_DIR$/06-shiro/02-springboot-shiro/02-springboot-shiro.iml" filepath="$PROJECT_DIR$/06-shiro/02-springboot-shiro/02-springboot-shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-druid/03-druid.iml" filepath="$PROJECT_DIR$/03-druid/03-druid.iml" />
@@ -13,7 +14,6 @@
       <module fileurl="file://$PROJECT_DIR$/08-tasks/08-tasks.iml" filepath="$PROJECT_DIR$/08-tasks/08-tasks.iml" />
       <module fileurl="file://$PROJECT_DIR$/09-redis/09-redis.iml" filepath="$PROJECT_DIR$/09-redis/09-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-study.iml" filepath="$PROJECT_DIR$/springboot-study.iml" />
-      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
     </modules>
   </component>
 </project>

@@ -8,8 +8,9 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import java.util.Locale;
 
-// 扩展spring mvc。自定义需要的功能，编写这个组件，然后将组件交给spring，springboot就会自动装配
-@Configuration
+// 扩展spring mvc
+// 自定义需要的功能，编写这个组件，然后将组件交给spring，springboot就会自动装配
+@Configuration  // 该注解将一个类变成配置类
 public class MymvcConfig implements WebMvcConfigurer {
 
     // 将自定义视图解析器注入到spring中

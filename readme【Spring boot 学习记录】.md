@@ -366,6 +366,21 @@ public static final String DEFAULT_PREFIX = "classpath:/templates/";
 public static final String DEFAULT_SUFFIX = ".html";
 ```
 
+**测试页面请求**
+
+在 controller 层下创建 `RouterController` ，处理请求：
+
+```java
+@Controller
+public class RouterController {
+    // 测试页面请求
+    @GetMapping("/test")
+    public String test() {
+        return "test";
+    }
+}
+```
+
 **测试**
 
 在 测试页面的路径： `resources/templates/test.html` 。启动之后，输入 `http://localhost:8080/test` 既可以看到测试页面上的内容。
@@ -2156,9 +2171,42 @@ class RedisApplicationTests {
 }
 ```
 
+## 分布式系统
+
+分布式系统是若干独立计算机的集合，这些计算机对于用户来说就像单个相关系统。
+
+首先需要明确的是，只有当单个节点的处理能力无法满足日益增长的计算、存储任务的时候，且硬件的提升〈加内存、加磁盘、使用更好的CPU）高昂到得不偿失的时候，应用程序也不能进一步优化的时候，我们才需要考虑分布式系统。因为，分布式系统要解决的问题本身就是和单机系统一样的，而由于分布式系统多节点、通过网络通信的拓扑结构，会引入很多单机系统没有的问题，为了解决这些问题又会引入更多的机制、协议，带来更多的问题。。。
 
 
 
+分布式：dubbo + zookeeper + springboot
+
+### RPC
+
+RPC【Remote Procedure Call】是指**远程过程调用，**是一种进程旧通信万式，它是一种技木的思想，而不是规范。它允讦程序调用另一个地址空间(通常是共享网络的另一台机器上)的过程或函数，而不用程序员显式编码这个远程调用的细节。即程序员无论是调用本地的还是远程的函数，本质上编写的调用代码基本相同。
+也就是说两台服务器A，B，一个应用部署在A服务器上，想要调用B服务器上应用提供的函数/方法，由于不在一个内存空间，不能直接调用，需要通过网络来表达调用的语义和传达调用的数据。为什么要用RPC呢?就是无法在一个进程内，甚至一个计算机内通过本地调用的方式完成的需求，比如不同的系统间的通讯，甚至不同的组织间的通讯，由于计算能力需要横向扩展，需要在多台机器组成的集群上部署应用。RPC就是要像调用本地的函数一样去调远程函数;
+
+**2个核心的模块是：通信，序列化。**
+
+序列化：数据传输需要转换，为了对象的传输。
+
+### Dubbo
+
+Apache Dubbo 是一款高性能、轻量级的开源Java RPC框架，它提供了三大核心能力：
+
+- 面向接口的远程方法调用；
+- 智能容错和负载均衡；
+- 服务自动注册和发现；
+
+Dubbo是一个jar包。
+
+[官网](https://dubbo.apache.org)
+
+### zookeeper
+
+zookeeper安装
+
+dubbo-admin安装：监控管理后台，可视化监控。
 
 ## END
 
