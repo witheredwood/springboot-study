@@ -336,7 +336,7 @@ private Resource getIndexHtml(Resource location) {
 
 **方案**。设置首页的方案如下：
 
-在静态资源的默认路径（这里不配置自己的路径，只使用默认路径存放静态资源）下创建一个 `index.html` 文件，在 `index.html` 中编写首页内容。重启访问 `http:localhost:8080/` 就可以访问首页。
+在静态资源的默认路径（这里不配置自己的路径，只使用默认路径存放静态资源）下创建一个 `index.html` 文件（这里放在了statis文件下，不需要处理请求），在 `index.html` 中编写首页内容。重启访问 `http:localhost:8080/` 就可以访问首页。
 
 
 
@@ -389,23 +389,23 @@ public class RouterController {
 
 ### MVC 配置原理
 
-路径：`arc/main/java/com/withered/config/MymvcConfig.java`。如果需要自定义的功能，编写这个组件，然后将组件交给spring，springboot就会自动装配。
+路径：`arc/main/java/com/withered/config/MyMvcConfig.java`。如果需要自定义的功能，编写这个组件，然后将组件交给spring，springboot就会自动装配。
 
 扩展 springmvc 的代码如下：
 
 ```java
 // 扩展spring mvc。
 @Configuration  // 该注解将一个类变成配置类
-public class MymvcConfig implements WebMvcConfigurer {
+public class MyMvcConfig implements WebMvcConfigurer {
 
     // 将自定义视图解析器注入到spring中
     @Bean
-    public ViewResolver myViewResolver() {
-        return new myViewResolver();
+    public ViewResolver MyViewResolver() {
+        return new MyViewResolver();
     }
 
     // 自定义视图解析器。实现了视图解析器接口的类，可以看作是一个视图解析器
-    public static class myViewResolver implements ViewResolver {
+    public static class MyViewResolver implements ViewResolver {
         @Override
         public View resolveViewName(String s, Locale locale) throws Exception {
             return null;
