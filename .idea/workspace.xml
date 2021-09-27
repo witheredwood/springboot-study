@@ -3,16 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0feb04af-d54f-405d-b0e8-e29e74341ed8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-yaml/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/0-yaml/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-web/src/main/java/com/withered/config/MymvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/01-web/src/main/java/com/withered/config/MyMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-web/src/main/java/com/withered/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-yaml/src/main/java/com/withered/controller/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-web/src/main/java/com/withered/controller/RouterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/01-web/src/main/java/com/withered/controller/RouterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-web/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/01-web/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-web/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-web/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-web/src/main/resources/templates/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-web/src/main/resources/templates/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-web/src/test/java/com/withered/WebApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/01-web/src/test/java/com/withered/WebApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme【Spring boot 学习记录】.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme【Spring boot 学习记录】.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -316,7 +307,7 @@
       <workItem from="1632634532685" duration="10774000" />
       <workItem from="1632647501961" duration="16000" />
       <workItem from="1632703279707" duration="4587000" />
-      <workItem from="1632712984892" duration="2837000" />
+      <workItem from="1632712984892" duration="2941000" />
     </task>
     <servers />
   </component>
