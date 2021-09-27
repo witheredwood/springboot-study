@@ -3,7 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="0feb04af-d54f-405d-b0e8-e29e74341ed8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-web/src/main/java/com/withered/controller/RouterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/01-web/src/main/java/com/withered/controller/RouterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-yaml/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/0-yaml/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-yaml/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/0-yaml/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-yaml/src/main/java/com/withered/YamlApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-yaml/src/main/java/com/withered/YamlApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-yaml/src/main/java/com/withered/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-yaml/src/main/java/com/withered/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-yaml/src/main/java/com/withered/pojo/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-yaml/src/main/java/com/withered/pojo/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-yaml/src/main/java/com/withered/pojo/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-yaml/src/main/java/com/withered/pojo/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-yaml/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/0-yaml/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-yaml/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/0-yaml/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-yaml/src/test/java/com/withered/YamlApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-yaml/src/test/java/com/withered/YamlApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +95,7 @@
       <recent name="D:\workspace\myweb\myspringboot\web\src\main\java\com\withered\config" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.WebApplication">
+  <component name="RunManager" selected="JUnit.YamlApplicationTests">
     <configuration name="MysqlApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="02-mysql" />
       <extension name="coverage">
@@ -248,9 +256,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.YamlApplicationTests" />
         <item itemvalue="JUnit.MysqlApplicationTests" />
         <item itemvalue="JUnit.MysqlApplicationTests.testConnection" />
-        <item itemvalue="JUnit.YamlApplicationTests" />
         <item itemvalue="JUnit.RedisApplicationTests" />
         <item itemvalue="Spring Boot.TasksApplication" />
       </list>
@@ -307,7 +315,7 @@
       <workItem from="1632634532685" duration="10774000" />
       <workItem from="1632647501961" duration="16000" />
       <workItem from="1632703279707" duration="4587000" />
-      <workItem from="1632712984892" duration="2941000" />
+      <workItem from="1632712984892" duration="3394000" />
     </task>
     <servers />
   </component>
@@ -367,38 +375,38 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="368" y="0" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1632709694623" />
-    <state width="1229" height="281" key="GridCell.Tab.0.bottom" timestamp="1632722845486">
+    <state width="1229" height="281" key="GridCell.Tab.0.bottom" timestamp="1632723360231">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1229" height="281" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1632722845486" />
-    <state width="1229" height="281" key="GridCell.Tab.0.center" timestamp="1632722845486">
+    <state width="1229" height="281" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1632723360231" />
+    <state width="1229" height="281" key="GridCell.Tab.0.center" timestamp="1632723360231">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1229" height="281" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1632722845486" />
-    <state width="1229" height="281" key="GridCell.Tab.0.left" timestamp="1632722845486">
+    <state width="1229" height="281" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1632723360231" />
+    <state width="1229" height="281" key="GridCell.Tab.0.left" timestamp="1632723360230">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1229" height="281" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1632722845486" />
-    <state width="1229" height="281" key="GridCell.Tab.0.right" timestamp="1632722845486">
+    <state width="1229" height="281" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1632723360230" />
+    <state width="1229" height="281" key="GridCell.Tab.0.right" timestamp="1632723360231">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1229" height="281" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1632722845486" />
-    <state width="1229" height="281" key="GridCell.Tab.1.bottom" timestamp="1632722845486">
+    <state width="1229" height="281" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1632723360231" />
+    <state width="1229" height="281" key="GridCell.Tab.1.bottom" timestamp="1632723124448">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1229" height="281" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1632722845486" />
-    <state width="1229" height="281" key="GridCell.Tab.1.center" timestamp="1632722845486">
+    <state width="1229" height="281" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1632723124448" />
+    <state width="1229" height="281" key="GridCell.Tab.1.center" timestamp="1632723124448">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1229" height="281" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1632722845486" />
-    <state width="1229" height="281" key="GridCell.Tab.1.left" timestamp="1632722845486">
+    <state width="1229" height="281" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1632723124448" />
+    <state width="1229" height="281" key="GridCell.Tab.1.left" timestamp="1632723124448">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1229" height="281" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1632722845486" />
-    <state width="1229" height="281" key="GridCell.Tab.1.right" timestamp="1632722845486">
+    <state width="1229" height="281" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1632723124448" />
+    <state width="1229" height="281" key="GridCell.Tab.1.right" timestamp="1632723124448">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1229" height="281" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1632722845486" />
+    <state width="1229" height="281" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1632723124448" />
     <state width="1229" height="337" key="GridCell.Tab.2.bottom" timestamp="1632382461979">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

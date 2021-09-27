@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-//    @GetMapping("/h1")
+    @GetMapping("/h1")
     public String h1() {
         System.out.println("-------------");
         System.out.println("spring boot 程序");
-        return "spring boot 程序";
+        return "spring boot 程序----- 0-yaml";
     }
 }

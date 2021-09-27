@@ -1,9 +1,9 @@
 # 普通的key-value
-name: zs
+name: zhangsan
 
 # 对象
 student:
-  name: zs
+  name: zhangsan
   age: 3
 
 person: {name: zs,age: 3}

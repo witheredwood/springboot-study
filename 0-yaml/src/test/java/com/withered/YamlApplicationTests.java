@@ -9,6 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 class YamlApplicationTests {
     @Autowired
     private Person person;
+
     @Test
     public void testPerson() {
         System.out.println("-------------------");

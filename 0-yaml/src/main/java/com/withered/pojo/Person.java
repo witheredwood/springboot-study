@@ -14,7 +14,7 @@ import java.util.Map;
 public class Person {
     private String name;
     private int age;
-    private boolean ishappey;
+    private boolean isHappy;
     private Date birth;
     private Map<String, Object> maps;
     private List<Object> lists;
@@ -23,10 +23,10 @@ public class Person {
     public Person() {
     }
 
-    public Person(String name, int age, boolean ishappey, Date birth, Map<String, Object> maps, List<Object> lists, Dog dog) {
+    public Person(String name, int age, boolean isHappy, Date birth, Map<String, Object> maps, List<Object> lists, Dog dog) {
         this.name = name;
         this.age = age;
-        this.ishappey = ishappey;
+        this.isHappy = isHappy;
         this.birth = birth;
         this.maps = maps;
         this.lists = lists;
@@ -49,12 +49,12 @@ public class Person {
         this.age = age;
     }
 
-    public boolean isIshappey() {
-        return ishappey;
+    public boolean isIsHappy() {
+        return isHappy;
     }
 
-    public void setIshappey(boolean ishappey) {
-        this.ishappey = ishappey;
+    public void setIsHappy(boolean isHappy) {
+        this.isHappy = isHappy;
     }
 
     public Date getBirth() {
