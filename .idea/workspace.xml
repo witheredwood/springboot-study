@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0feb04af-d54f-405d-b0e8-e29e74341ed8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/0-yaml/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-mysql/src/test/java/com/withered/MysqlApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-web/src/main/java/com/withered/pojo/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-yaml/src/main/java/com/withered/pojo/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-web/src/main/java/com/withered/pojo/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/0-yaml/src/main/java/com/withered/pojo/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-web/src/test/java/com/withered/WebApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/01-web/src/test/java/com/withered/WebApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-tasks/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/08-tasks/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-mysql/src/main/java/com/withered/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-mysql/src/main/java/com/withered/MysqlApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-mysql/src/test/java/com/withered/ApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +89,38 @@
       <recent name="D:\workspace\myweb\myspringboot\06-shiro\02-springboot-shiro\src\main\resources\mapper" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.YamlApplicationTests">
+  <component name="RunManager" selected="JUnit.MysqlApplicationTests">
+    <configuration name="MysqlApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02-mysql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.withered.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.withered" />
+      <option name="MAIN_CLASS_NAME" value="com.withered.MysqlApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MysqlApplicationTests.testConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02-mysql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.withered.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.withered" />
+      <option name="MAIN_CLASS_NAME" value="com.withered.MysqlApplicationTests" />
+      <option name="METHOD_NAME" value="testConnection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RedisApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="09-redis" />
       <extension name="coverage">
@@ -107,38 +132,6 @@
       <option name="PACKAGE_NAME" value="com.withered" />
       <option name="MAIN_CLASS_NAME" value="com.withered.RedisApplicationTests" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TasksApplicationTests.complexMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="08-tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.withered.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.withered" />
-      <option name="MAIN_CLASS_NAME" value="com.withered.TasksApplicationTests" />
-      <option name="METHOD_NAME" value="complexMail" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TasksApplicationTests.simpleMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="08-tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.withered.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.withered" />
-      <option name="MAIN_CLASS_NAME" value="com.withered.TasksApplicationTests" />
-      <option name="METHOD_NAME" value="simpleMail" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,7 +153,7 @@
     </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="02-mysql" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.withered.Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.withered.MysqlApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -248,13 +241,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="YamlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="0-yaml" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.withered.YamlApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MysqlApplicationTests" />
+        <item itemvalue="JUnit.MysqlApplicationTests.testConnection" />
         <item itemvalue="JUnit.YamlApplicationTests" />
         <item itemvalue="JUnit.RedisApplicationTests" />
         <item itemvalue="Spring Boot.TasksApplication" />
-        <item itemvalue="JUnit.TasksApplicationTests.complexMail" />
-        <item itemvalue="JUnit.TasksApplicationTests.simpleMail" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +309,7 @@
       <workItem from="1632634532685" duration="10774000" />
       <workItem from="1632647501961" duration="16000" />
       <workItem from="1632703279707" duration="4587000" />
-      <workItem from="1632712984892" duration="105000" />
+      <workItem from="1632712984892" duration="1182000" />
     </task>
     <servers />
   </component>
@@ -357,10 +357,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="398" y="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.720@0.0.1280.720" timestamp="1632274112199" />
-    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1632709623218">
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1632720938127">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.720@0.0.1280.720" timestamp="1632709623218" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.720@0.0.1280.720" timestamp="1632720938127" />
     <state x="306" y="50" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1632709608817">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -369,22 +369,22 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="368" y="0" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1632709694623" />
-    <state width="1229" height="266" key="GridCell.Tab.0.bottom" timestamp="1632713033861">
+    <state width="1229" height="266" key="GridCell.Tab.0.bottom" timestamp="1632721176368">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1229" height="266" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1632713033861" />
-    <state width="1229" height="266" key="GridCell.Tab.0.center" timestamp="1632713033861">
+    <state width="1229" height="266" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1632721176368" />
+    <state width="1229" height="266" key="GridCell.Tab.0.center" timestamp="1632721176367">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1229" height="266" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1632713033861" />
-    <state width="1229" height="266" key="GridCell.Tab.0.left" timestamp="1632713033860">
+    <state width="1229" height="266" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1632721176367" />
+    <state width="1229" height="266" key="GridCell.Tab.0.left" timestamp="1632721176367">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1229" height="266" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1632713033860" />
-    <state width="1229" height="266" key="GridCell.Tab.0.right" timestamp="1632713033861">
+    <state width="1229" height="266" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1632721176367" />
+    <state width="1229" height="266" key="GridCell.Tab.0.right" timestamp="1632721176368">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1229" height="266" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1632713033861" />
+    <state width="1229" height="266" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1632721176368" />
     <state width="1229" height="266" key="GridCell.Tab.1.bottom" timestamp="1632638419495">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
